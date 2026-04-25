@@ -1,0 +1,29 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Database
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Security and encryption
+cryptography==42.0.7
+
+# SSH connectivity
+paramiko==3.4.0
+
+# Packet parsing (sFlow)
+dpkt==1.9.8
+
+# Environment loading
+python-dotenv==1.0.1
+
+# Development and testing
+ruff==0.4.4
+pytest==8.2.0
+httpx==0.27.0
